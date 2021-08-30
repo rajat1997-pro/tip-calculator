@@ -1,0 +1,157 @@
+body{
+  background-color: hsl(185, 41%, 84%);
+  font-size: 24px;
+  text-align: center;
+  padding: 3% 14%;
+  font-family: 'Space Mono', monospace;
+}
+.main{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 3% 4%;
+  margin-top: 4%;
+}
+.bill{
+  background-color: hsl(189, 41%, 97%);
+  width: 90%;
+  text-align: right;
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+}
+.bill::placeholder{
+  padding-right: 10px;
+}
+.bill:focus::placeholder{
+ visibility: hidden;
+}
+.dollar{
+  position: absolute;
+  margin-top: 10px;
+  left: 20px;
+}
+
+.custom{
+  width: 100%;
+  text-align: center;
+  background-color: hsl(189, 41%, 97%);
+  color: hsl(183, 100%, 15%);
+  margin-top: 15px;
+  font-weight: 700;
+}
+.custom:focus{
+  text-align: right;
+  cursor: pointer;
+}
+.custom:focus::placeholder{
+  color: transparent;
+}
+button{
+  width: 100px;
+}
+ h4{
+  padding-top: 30px;
+  color: hsl(186, 14%, 43%);
+}
+.tip{
+  padding: 1px 7px;
+  width: 30%;
+}
+
+.tip-button{
+  font-weight: bold;
+  color: #fff;
+  margin-top: 15px;
+  background-color: hsl(183, 100%, 15%);
+}
+.tip-button:hover{
+  color: hsl(183, 100%, 15%);
+  background-color: hsl(172, 67%, 45%);
+}
+.left{
+  text-align: left;
+}
+.person{
+  position: absolute;
+  margin-top: 10px;
+  left: 20px;
+
+}
+.people{
+  background-color: hsl(189, 41%, 97%);
+  width: 90%;
+  text-align: right;
+  color: hsl(183, 100%, 15%);
+  font-weight: 700;
+}
+.people::placeholder{
+  padding-right: 20px;
+}
+.people:focus::placeholder{
+  visibility: hidden;
+}
+.right{
+  padding: 5% 2%;
+  border-radius: 20px;
+  background-color: hsl(183, 100%, 15%);
+}
+.calc1{
+  padding: 0 10% 10%;
+  text-align:left;
+}
+.calc2{
+  padding: 0 5%;
+  text-align:left;
+}
+.right-heading1{
+  color: #fff;
+}
+.right-heading2{
+  color: #fff;
+}
+.tip-amount{
+  width: 100%;
+  font-size: 40px;
+  line-height: 1;
+  font-weight: bold;
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(172, 67%, 45%);
+  text-align: center;
+
+}
+.total-amount{
+  width: 100%;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1;
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(172, 67%, 45%);
+  text-align: center;
+}
+.reset{
+  width: 85%;
+  margin-top: 12%;
+  background-color: hsl(184, 14%, 56%);
+  font-weight: bold;
+}
+.reset:hover{
+  background-color: hsl(172, 67%, 45%);
+  cursor: pointer;
+  color: hsl(183, 100%, 15%);
+}
+@media (max-width:990px){
+
+  .right{
+    margin-top: 10%;
+
+  }
+}
+@media (max-width:500px){
+  .custom{
+    font-size: 80%;
+  }
+}
+@media (max-width:375px) {
+ body{
+   padding: 5% 0 0;
+ }
+}
